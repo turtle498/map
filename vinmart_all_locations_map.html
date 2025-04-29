@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_17a4669d4489cccc4e0f0bf78a39447a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_17a4669d4489cccc4e0f0bf78a39447a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_17a4669d4489cccc4e0f0bf78a39447a = L.map(
+                "map_17a4669d4489cccc4e0f0bf78a39447a",
+                {
+                    center: [20.9, 106.16],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ea8e9aad4deeb3e7fae102761c0803fc = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_17a4669d4489cccc4e0f0bf78a39447a);
+        
+    
+            var marker_cluster_5786bdcc82022e66673b483b9a4551da = L.markerClusterGroup(
+                {}
+            );
+            map_17a4669d4489cccc4e0f0bf78a39447a.addLayer(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+            var marker_aed8c7f066c61a0fad1821cb60064dbe = L.marker(
+                [21.0439484, 105.8029009],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_29bf13fa18193247c5bcf5820e61b03d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a8ea7c67111f3b230190fe573a086fa = $(`<div id="html_1a8ea7c67111f3b230190fe573a086fa" style="width: 100.0%; height: 100.0%;">VINMART TRANG AN - COMPLEX SỐ 1 Phùng Chí Kiên, Cầu Giấy, HN</div>`)[0];
+            popup_29bf13fa18193247c5bcf5820e61b03d.setContent(html_1a8ea7c67111f3b230190fe573a086fa);
+        
+
+        marker_aed8c7f066c61a0fad1821cb60064dbe.bindPopup(popup_29bf13fa18193247c5bcf5820e61b03d)
+        ;
+
+        
+    
+    
+            var marker_110dff1f3bc971e79aa0dfd5b911c557 = L.marker(
+                [21.0001666, 105.8072169],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_de8dd2ca1752dfdf830f807b6c84d81d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b094f1656babd77400376fa6f18a5fac = $(`<div id="html_b094f1656babd77400376fa6f18a5fac" style="width: 100.0%; height: 100.0%;">VINMART VŨ TRỌNG PHỤNG - 17T1,17T2 Số 1 Nguyễn Huy Tưởng, Thanh Xuân</div>`)[0];
+            popup_de8dd2ca1752dfdf830f807b6c84d81d.setContent(html_b094f1656babd77400376fa6f18a5fac);
+        
+
+        marker_110dff1f3bc971e79aa0dfd5b911c557.bindPopup(popup_de8dd2ca1752dfdf830f807b6c84d81d)
+        ;
+
+        
+    
+    
+            var marker_1ba6b0fbb2bb260ba37023d7bb916fd1 = L.marker(
+                [21.01143225, 105.86340006],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_df867fe86e76b58c5bee6ee66fac7b86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab851b76338c2eeeb9530b67c12660e8 = $(`<div id="html_ab851b76338c2eeeb9530b67c12660e8" style="width: 100.0%; height: 100.0%;">VINMART LƯƠNG YÊN - Số 3 Lương Yên, Hai Bà Trưng, HN</div>`)[0];
+            popup_df867fe86e76b58c5bee6ee66fac7b86.setContent(html_ab851b76338c2eeeb9530b67c12660e8);
+        
+
+        marker_1ba6b0fbb2bb260ba37023d7bb916fd1.bindPopup(popup_df867fe86e76b58c5bee6ee66fac7b86)
+        ;
+
+        
+    
+    
+            var marker_d1ed615a09335d7e803839af6b2f4a17 = L.marker(
+                [20.9703507, 105.87784146],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_6319da4a0ff766f6fd1eb4ebd2659898 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e939f6b636e5b2cccafcad4e90e1e30 = $(`<div id="html_6e939f6b636e5b2cccafcad4e90e1e30" style="width: 100.0%; height: 100.0%;">Đường số 2 Gamuda Garden, Hoàng Mai, HN</div>`)[0];
+            popup_6319da4a0ff766f6fd1eb4ebd2659898.setContent(html_6e939f6b636e5b2cccafcad4e90e1e30);
+        
+
+        marker_d1ed615a09335d7e803839af6b2f4a17.bindPopup(popup_6319da4a0ff766f6fd1eb4ebd2659898)
+        ;
+
+        
+    
+    
+            var marker_ea8f5ba50953fcd402ef8373dfdaacd3 = L.marker(
+                [21.03156771, 105.81532799],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_da646ab4a2f93a648f681a1d421eedab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5d2bec099821a9cc13a30eba8fe0b62 = $(`<div id="html_e5d2bec099821a9cc13a30eba8fe0b62" style="width: 100.0%; height: 100.0%;">304 Kim Mã, Ngọc Khánh, Ba Đình, HN</div>`)[0];
+            popup_da646ab4a2f93a648f681a1d421eedab.setContent(html_e5d2bec099821a9cc13a30eba8fe0b62);
+        
+
+        marker_ea8f5ba50953fcd402ef8373dfdaacd3.bindPopup(popup_da646ab4a2f93a648f681a1d421eedab)
+        ;
+
+        
+    
+    
+            var marker_c44d6af201a38e7e2186e22803b041ce = L.marker(
+                [21.02355238, 105.80489246],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_ff0fb569b174aa59f190a5ec8fd51821 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b1afbb917c1116cf2d8b57bbb22bb09 = $(`<div id="html_6b1afbb917c1116cf2d8b57bbb22bb09" style="width: 100.0%; height: 100.0%;">105 Chùa Láng, Ba Đình, Hà Nội</div>`)[0];
+            popup_ff0fb569b174aa59f190a5ec8fd51821.setContent(html_6b1afbb917c1116cf2d8b57bbb22bb09);
+        
+
+        marker_c44d6af201a38e7e2186e22803b041ce.bindPopup(popup_ff0fb569b174aa59f190a5ec8fd51821)
+        ;
+
+        
+    
+    
+            var marker_bd06b10eed494664d296999031efe75c = L.marker(
+                [20.4380959, 106.1803994],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_eeb1c5ed141961a9d43b748ed53a1cff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54940cca86689bbd8d3dd63b8191cd7e = $(`<div id="html_54940cca86689bbd8d3dd63b8191cd7e" style="width: 100.0%; height: 100.0%;">577 Trường Chinh, Quang Trung, Nam Định</div>`)[0];
+            popup_eeb1c5ed141961a9d43b748ed53a1cff.setContent(html_54940cca86689bbd8d3dd63b8191cd7e);
+        
+
+        marker_bd06b10eed494664d296999031efe75c.bindPopup(popup_eeb1c5ed141961a9d43b748ed53a1cff)
+        ;
+
+        
+    
+    
+            var marker_ddb0f35936268f905419041bf8a4dae5 = L.marker(
+                [20.4336092, 106.1840957],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_b15582d920481922085b2430d498ddee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a5cf7f84978da0b1b69420361a76ab2 = $(`<div id="html_6a5cf7f84978da0b1b69420361a76ab2" style="width: 100.0%; height: 100.0%;">186 Hùng Vương, Vị Xuyên, Nam Định</div>`)[0];
+            popup_b15582d920481922085b2430d498ddee.setContent(html_6a5cf7f84978da0b1b69420361a76ab2);
+        
+
+        marker_ddb0f35936268f905419041bf8a4dae5.bindPopup(popup_b15582d920481922085b2430d498ddee)
+        ;
+
+        
+    
+    
+            var marker_4c06ddc3b602fc4d362e9c60d371d131 = L.marker(
+                [20.429796, 106.174384],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_0ea42a9871a3198bd25b2be8b820674e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_106cce0859ebffba51a083b4e858322b = $(`<div id="html_106cce0859ebffba51a083b4e858322b" style="width: 100.0%; height: 100.0%;">308 Tổ 13 Hoàng Văn Thụ, Quang Trung, Nam Định</div>`)[0];
+            popup_0ea42a9871a3198bd25b2be8b820674e.setContent(html_106cce0859ebffba51a083b4e858322b);
+        
+
+        marker_4c06ddc3b602fc4d362e9c60d371d131.bindPopup(popup_0ea42a9871a3198bd25b2be8b820674e)
+        ;
+
+        
+    
+    
+            var marker_76f8363fcf651417c15ba40f7ad18dbd = L.marker(
+                [20.43424852, 106.17314264],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_9d5b6ee1183c9970c19eb0d53ada8a65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a121e087b1f10d9be02f11374f47274e = $(`<div id="html_a121e087b1f10d9be02f11374f47274e" style="width: 100.0%; height: 100.0%;">138 Tổ 31 Hưng Yên, Quang Trung, Nam Định</div>`)[0];
+            popup_9d5b6ee1183c9970c19eb0d53ada8a65.setContent(html_a121e087b1f10d9be02f11374f47274e);
+        
+
+        marker_76f8363fcf651417c15ba40f7ad18dbd.bindPopup(popup_9d5b6ee1183c9970c19eb0d53ada8a65)
+        ;
+
+        
+    
+    
+            var marker_10debb667c7277a58ea6f561382fa8fa = L.marker(
+                [20.4215742, 106.1756568],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_0abeecea94e7c01aa028321fbd1b5f19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66908f92fc988c1929c6e826fd5a3f85 = $(`<div id="html_66908f92fc988c1929c6e826fd5a3f85" style="width: 100.0%; height: 100.0%;">111 Hàng Thao, Năng Tĩnh, Nam Định</div>`)[0];
+            popup_0abeecea94e7c01aa028321fbd1b5f19.setContent(html_66908f92fc988c1929c6e826fd5a3f85);
+        
+
+        marker_10debb667c7277a58ea6f561382fa8fa.bindPopup(popup_0abeecea94e7c01aa028321fbd1b5f19)
+        ;
+
+        
+    
+    
+            var marker_eb92469df3058614a59c74138632bb79 = L.marker(
+                [20.4135424, 106.1636952],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_9a4a727ff98fbc096ba56e364d58406d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a1ac7bc70edb1cc2aca6eef7af7c3cf = $(`<div id="html_1a1ac7bc70edb1cc2aca6eef7af7c3cf" style="width: 100.0%; height: 100.0%;">182 Song Hào, Trường Thi, Nam Định</div>`)[0];
+            popup_9a4a727ff98fbc096ba56e364d58406d.setContent(html_1a1ac7bc70edb1cc2aca6eef7af7c3cf);
+        
+
+        marker_eb92469df3058614a59c74138632bb79.bindPopup(popup_9a4a727ff98fbc096ba56e364d58406d)
+        ;
+
+        
+    
+    
+            var marker_5fe91517349093a3153c86ba6af10196 = L.marker(
+                [20.4394658, 106.1732455],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_1287cb41ebe9197513d3019ce6e052fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efd8f5c17da766bf8b38e7f8aeca4ea9 = $(`<div id="html_efd8f5c17da766bf8b38e7f8aeca4ea9" style="width: 100.0%; height: 100.0%;">156 Trần Thái Tông, Quang Trung, Nam Định</div>`)[0];
+            popup_1287cb41ebe9197513d3019ce6e052fb.setContent(html_efd8f5c17da766bf8b38e7f8aeca4ea9);
+        
+
+        marker_5fe91517349093a3153c86ba6af10196.bindPopup(popup_1287cb41ebe9197513d3019ce6e052fb)
+        ;
+
+        
+    
+    
+            var marker_29024585a7598bdeeabb36425431a341 = L.marker(
+                [20.43528612, 106.16080792],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_e3f2f155d7fdf9b1729792c0deea7b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a2b106136ad9cbb02e2813077d1d99a = $(`<div id="html_9a2b106136ad9cbb02e2813077d1d99a" style="width: 100.0%; height: 100.0%;">40 Đông A, Lộc Vượng, Nam Định</div>`)[0];
+            popup_e3f2f155d7fdf9b1729792c0deea7b7d.setContent(html_9a2b106136ad9cbb02e2813077d1d99a);
+        
+
+        marker_29024585a7598bdeeabb36425431a341.bindPopup(popup_e3f2f155d7fdf9b1729792c0deea7b7d)
+        ;
+
+        
+    
+    
+            var marker_2eaa1834ce6c9620195ecfd25fa7fe35 = L.marker(
+                [20.4157689, 106.18442538],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_11feed4faa9c12520df1a74b6740cc12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c66bf32327570c13a3688cb90a707d5a = $(`<div id="html_c66bf32327570c13a3688cb90a707d5a" style="width: 100.0%; height: 100.0%;">114 Đặng Xuân Bảng, Cửa Nam, Nam Định</div>`)[0];
+            popup_11feed4faa9c12520df1a74b6740cc12.setContent(html_c66bf32327570c13a3688cb90a707d5a);
+        
+
+        marker_2eaa1834ce6c9620195ecfd25fa7fe35.bindPopup(popup_11feed4faa9c12520df1a74b6740cc12)
+        ;
+
+        
+    
+    
+            var marker_353035695e13315cb038da85572aeabc = L.marker(
+                [20.43285574, 106.15507419],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_96a77a4e2d655c8dcb08f34331e573a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0221b9beb0aa0678d59d5af8fd61445a = $(`<div id="html_0221b9beb0aa0678d59d5af8fd61445a" style="width: 100.0%; height: 100.0%;">147 Nguyễn Công Trứ, Hòa Vượng, Nam Định</div>`)[0];
+            popup_96a77a4e2d655c8dcb08f34331e573a7.setContent(html_0221b9beb0aa0678d59d5af8fd61445a);
+        
+
+        marker_353035695e13315cb038da85572aeabc.bindPopup(popup_96a77a4e2d655c8dcb08f34331e573a7)
+        ;
+
+        
+    
+    
+            var marker_e68e18d235fef00d7dea25e7631a8321 = L.marker(
+                [20.4176434, 106.1598439],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_e88478b5cd3c66df63c47dc80529d794 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceaecf253dc33773a9a07839577d390b = $(`<div id="html_ceaecf253dc33773a9a07839577d390b" style="width: 100.0%; height: 100.0%;">274 Trần Huy Liệu, Mỹ Xá, Nam Định</div>`)[0];
+            popup_e88478b5cd3c66df63c47dc80529d794.setContent(html_ceaecf253dc33773a9a07839577d390b);
+        
+
+        marker_e68e18d235fef00d7dea25e7631a8321.bindPopup(popup_e88478b5cd3c66df63c47dc80529d794)
+        ;
+
+        
+    
+    
+            var marker_e449404c5c4b272aa50d2f0e20511f58 = L.marker(
+                [20.42441087, 106.158504],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_c88c33551172a9be8fd1c399d683ff0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b70487940a9b39f91e57605a66e4d158 = $(`<div id="html_b70487940a9b39f91e57605a66e4d158" style="width: 100.0%; height: 100.0%;">300 Giải Phóng, Mỹ Xá, Nam Định</div>`)[0];
+            popup_c88c33551172a9be8fd1c399d683ff0a.setContent(html_b70487940a9b39f91e57605a66e4d158);
+        
+
+        marker_e449404c5c4b272aa50d2f0e20511f58.bindPopup(popup_c88c33551172a9be8fd1c399d683ff0a)
+        ;
+
+        
+    
+    
+            var marker_047d9be8664d247b94081121d4987452 = L.marker(
+                [20.41888536, 106.16506452],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_882ada8253c31b239ef0e8a05ad66130 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f942fcdb5489866367a1024e416aa9 = $(`<div id="html_31f942fcdb5489866367a1024e416aa9" style="width: 100.0%; height: 100.0%;">33 Trần Huy Liệu, Năng Tĩnh, Nam Định</div>`)[0];
+            popup_882ada8253c31b239ef0e8a05ad66130.setContent(html_31f942fcdb5489866367a1024e416aa9);
+        
+
+        marker_047d9be8664d247b94081121d4987452.bindPopup(popup_882ada8253c31b239ef0e8a05ad66130)
+        ;
+
+        
+    
+    
+            var marker_fd0e3103d8f8831b9e03b4a038862b2c = L.marker(
+                [20.4369521, 106.1864816],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_9d1d2d3c2fca9d9547e422f2d1eee95f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_514bd781153c00a2fae14f25ddb3b9f8 = $(`<div id="html_514bd781153c00a2fae14f25ddb3b9f8" style="width: 100.0%; height: 100.0%;">181 Trần Nhật Duật, Vị Xuyên, Nam Định</div>`)[0];
+            popup_9d1d2d3c2fca9d9547e422f2d1eee95f.setContent(html_514bd781153c00a2fae14f25ddb3b9f8);
+        
+
+        marker_fd0e3103d8f8831b9e03b4a038862b2c.bindPopup(popup_9d1d2d3c2fca9d9547e422f2d1eee95f)
+        ;
+
+        
+    
+    
+            var marker_91959d23f56931013d8d010bc5045694 = L.marker(
+                [20.44339182, 106.18445635],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_71418554c5aa3dcbd58a9dd343173301 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96b2e27eaac0bd93e172768a2634318e = $(`<div id="html_96b2e27eaac0bd93e172768a2634318e" style="width: 100.0%; height: 100.0%;">167 Phù Nghĩa, Quang Trung, Nam Định</div>`)[0];
+            popup_71418554c5aa3dcbd58a9dd343173301.setContent(html_96b2e27eaac0bd93e172768a2634318e);
+        
+
+        marker_91959d23f56931013d8d010bc5045694.bindPopup(popup_71418554c5aa3dcbd58a9dd343173301)
+        ;
+
+        
+    
+    
+            var marker_0447c34b4b539d7004b994bd0836a863 = L.marker(
+                [20.424012, 106.17832102],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_d729ade7d3c0a6b2c26b2dc3918b612a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffe509b8a6bfb8ed62aeac808acd33ed = $(`<div id="html_ffe509b8a6bfb8ed62aeac808acd33ed" style="width: 100.0%; height: 100.0%;">5 Phan Đình Phùng, Trần Hưng Đạo, Nam Định</div>`)[0];
+            popup_d729ade7d3c0a6b2c26b2dc3918b612a.setContent(html_ffe509b8a6bfb8ed62aeac808acd33ed);
+        
+
+        marker_0447c34b4b539d7004b994bd0836a863.bindPopup(popup_d729ade7d3c0a6b2c26b2dc3918b612a)
+        ;
+
+        
+    
+    
+            var marker_c988262b0d8c715a268af2c56b571d04 = L.marker(
+                [20.319911, 106.0212262],
+                {}
+            ).addTo(marker_cluster_5786bdcc82022e66673b483b9a4551da);
+        
+    
+        var popup_57db9c7295c8460fef52fd33927528e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c52b57a2bb79a0aa4b6d077de858621 = $(`<div id="html_5c52b57a2bb79a0aa4b6d077de858621" style="width: 100.0%; height: 100.0%;">Khu A, đường 57A, Thị Trấn Lâm, Ý Yên, Nam Định</div>`)[0];
+            popup_57db9c7295c8460fef52fd33927528e5.setContent(html_5c52b57a2bb79a0aa4b6d077de858621);
+        
+
+        marker_c988262b0d8c715a268af2c56b571d04.bindPopup(popup_57db9c7295c8460fef52fd33927528e5)
+        ;
+
+        
+    
+</script>
+</html>
